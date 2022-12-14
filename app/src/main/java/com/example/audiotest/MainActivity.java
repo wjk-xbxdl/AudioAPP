@@ -27,8 +27,6 @@ import java.util.Objects;
 public class MainActivity extends AppCompatActivity {
 
     final String TAG = "AudioTestApp";
-    private TabHost mTabHost;
-    private TabHost mTabHostPlay;
     private Button buttonPlayOne;
     private Button buttonPlayTwo;
     private Button buttonPlayThree;
@@ -630,8 +628,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initTabHost() {
-        mTabHost = findViewById(R.id.tab_host);
-        mTabHostPlay = findViewById(R.id.tab_host_play);
+        TabHost tabHost = findViewById(R.id.tab_host);
+        TabHost tabHostPlay = findViewById(R.id.tab_host_play);
         int[] layRes = {
                 R.id.relative_track,
                 R.id.relative_record,
@@ -642,20 +640,20 @@ public class MainActivity extends AppCompatActivity {
                 R.id.relative_play_three};
         String[] tagInfo = {"play", "record", "setting"};
         String[] tagInfoPlay = {"one", "two", "three"};
-        mTabHost.setup();
-        mTabHostPlay.setup();
+        tabHost.setup();
+        tabHostPlay.setup();
         for (int i = 0; i < 3; i++) {
-            TabHost.TabSpec setTab = mTabHost.newTabSpec(tagInfo[i]);
+            TabHost.TabSpec setTab = tabHost.newTabSpec(tagInfo[i]);
             setTab.setIndicator(tagInfo[i]);
             setTab.setContent(layRes[i]);
-            mTabHost.addTab(setTab);
-            TabHost.TabSpec setTabPlay = mTabHostPlay.newTabSpec(tagInfoPlay[i]);
+            tabHost.addTab(setTab);
+            TabHost.TabSpec setTabPlay = tabHostPlay.newTabSpec(tagInfoPlay[i]);
             setTabPlay.setIndicator(tagInfoPlay[i]);
             setTabPlay.setContent(layResPlay[i]);
-            mTabHostPlay.addTab(setTabPlay);
+            tabHostPlay.addTab(setTabPlay);
         }
-        mTabHost.setCurrentTab(0);
-        mTabHostPlay.setCurrentTab(0);
+        tabHost.setCurrentTab(0);
+        tabHostPlay.setCurrentTab(0);
     }
 
     private void initContent() {
