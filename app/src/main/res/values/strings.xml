@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AudioTest</string>
+    <string name="button_play_one">play_one</string>
+    <string name="button_play_two">play_two</string>
+    <string name="button_play_three">play_three</string>
+    <string name="switch_cyclicPlay">cyclicPlay</string>
+    <string name="switch_off">off</string>
+    <string name="switch_on">on</string>
+    <string name="switch_viceScreen">viceScreen</string>
+    <string name="textView_streamType">streamType:</string>
+    <string name="textView_sampleRate">sampleRate:</string>
+    <string name="textView_format">format:</string>
+    <string name="textView_channel">channel:</string>
+    <string name="textView_cyclicTime">cyclicTime:</string>
+    <string name="textView_source">source:</string>
+    <string name="button_openFile">openFile</string>
+    <string name="button_record">record</string>
+    <string name="cyclic_record">cyclicRecord</string>
+    <string name="record_source">recordSource:</string>
+    <string name="save_path">savePath:</string>
+    <string name="set_volume">setVolume</string>
+    <string name="volume_value">50</string>
+    <string name="set_mode">setMode</string>
+    <string name="set_parameter">setParameter</string>
+    <string name="broad_cast">broadcast</string>
+
+</resources>

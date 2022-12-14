@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="streamType">
+        <item>CALL</item>
+        <item>SYSTEM</item>
+        <item>RING</item>
+        <item>MUSIC</item>
+        <item>ALARM</item>
+        <item>NOTIFICATION</item>
+        <item>BLUETOOTH_SCO</item>
+        <item>ENFORCED_AUDIBLE</item>
+        <item>DTMF</item>
+        <item>TTS</item>
+        <item>ACCESSIBILITY</item>
+        <item>GIS</item>
+        <item>BACKCAR</item>
+        <item>RDS</item>
+        <item>ADAS</item>
+        <item>SMIX</item>
+        <item>AUXIN</item>
+        <item>VOICE_ASSISTANT</item>
+        <item>ALTERNATE</item>
+        <item>BOOT</item>
+        <item>VIBSPK</item>
+        <item>REROUTING</item>
+        <item>PATCH</item>
+    </string-array>
+
+    <string-array name="play_sampleRate">
+        <item>8000</item>
+        <item>24000</item>
+        <item>32000</item>
+        <item>48000</item>
+        <item>96000</item>
+    </string-array>
+
+    <string-array name="play_format">
+        <item>PCM_8_BIT</item>
+        <item>PCM_16_BIT</item>
+        <item>PCM_32_BIT</item>
+    </string-array>
+
+    <string-array name="play_channel">
+        <item>MONO</item>
+        <item>STEREO</item>
+        <item>5POINT1</item>
+    </string-array>
+
+    <string-array name="record_source">
+        <item>DEFAULT</item>
+        <item>MIC</item>
+        <item>VOICE_UPLINK</item>
+        <item>VOICE_DOWNLINK</item>
+        <item>VOICE_CALL</item>
+        <item>CAMCORDER</item>
+        <item>VOICE_RECOGNITION</item>
+        <item>VOICE_COMMUNICATION</item>
+        <item>REMOTE_SUBMIX</item>
+        <item>UNPROCESSED</item>
+        <item>DIGITAL_IN</item>
+        <item>ANALOG_IN_GROUP_1</item>
+        <item>ANALOG_IN_GROUP_2</item>
+        <item>ANALOG_IN_GROUP_3</item>
+        <item>ANALOG_IN_GROUP_4</item>
+        <item>AUDIO_SOURCE_FM_TUNER</item>
+        <item>AUDIO_SOURCE_HOTWORD</item>
+    </string-array>
+
+    <string-array name="record_sampleRate">
+        <item>8000</item>
+        <item>24000</item>
+        <item>32000</item>
+        <item>48000</item>
+        <item>96000</item>
+    </string-array>
+
+    <string-array name="record_format">
+        <item>PCM_8_BIT</item>
+        <item>PCM_16_BIT</item>
+        <item>PCM_32_BIT</item>
+    </string-array>
+
+    <string-array name="record_channel">
+        <item>MONO</item>
+        <item>STEREO</item>
+        <item>5POINT1</item>
+    </string-array>
+
+    <string-array name="audio_mode">
+        <item>NORMAL</item>
+        <item>RINGTONE</item>
+        <item>IN_CALL</item>
+        <item>IN_COMMUNICATION</item>
+        <item>IN_CUSTOM_COMMUNICATION</item>
+        <item>IN_CUSTOM_VOICE_RECOGNITION</item>
+    </string-array>
+
+    <string-array name="set_parameter">
+        <item>atc_hfp_set_sampling_rate</item>
+        <item>atc_hfp_enable</item>
+        <item>atc_hfp_volume_policy</item>
+        <item>setMasterVolume</item>
+    </string-array>
+
+    <string-array name="cyclic_time">
+        <item>30ms</item>
+        <item>50ms</item>
+        <item>100ms</item>
+        <item>500ms</item>
+        <item>1s</item>
+        <item>5s</item>
+        <item>10s</item>
+        <item>30s</item>
+        <item>60s</item>
+    </string-array>
+
+</resources>
